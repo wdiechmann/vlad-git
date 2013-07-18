@@ -20,7 +20,7 @@ modules outside the core recipe have been extracted.}
   s.summary = %q{Vlad plugin for Git support}
   s.test_files = ["test/test_vlad_git.rb"]
 
-  s.add_runtime_dependency('vlad', ">= 2.1.0")
+  s.add_runtime_dependency('vlad', "~> 2.6.1")
 
   s.add_development_dependency('hoe', "~> 2.12")
   s.add_development_dependency('minitest')
